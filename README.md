@@ -1,6 +1,6 @@
 # favourite_places
 
-A new Flutter project.
+A new favourite places project using geolocation and firebase tools.
 
 ## Getting Started
 
