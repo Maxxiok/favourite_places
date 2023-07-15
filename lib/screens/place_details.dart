@@ -7,7 +7,7 @@ class PlaceDetailsScreen extends StatelessWidget {
   const PlaceDetailsScreen(this.place, {super.key});
 
   String get locationImage {
-    return 'https://maps.googleapis.com/maps/api/staticmap?center=${place.location.latitude},${place.location.longitude}&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C${place.location.latitude},${place.location.longitude}&key=AIzaSyDbI9JAjr02xmnRh1uGHtBgGbwqESP3cNU';
+    return 'https://maps.googleapis.com/maps/api/staticmap?center=${place.location.latitude},${place.location.longitude}&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C${place.location.latitude},${place.location.longitude}&key=TEST';
   }
 
   @override

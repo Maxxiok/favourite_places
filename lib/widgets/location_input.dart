@@ -72,7 +72,7 @@ class _LocationInputState extends State<LocationInput> {
   }
 
   String get locationImage {
-    return 'https://maps.googleapis.com/maps/api/staticmap?center=${_pickedLocation!.latitude},${_pickedLocation!.longitude}&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C${_pickedLocation!.latitude},${_pickedLocation!.longitude}&key=AIzaSyDbI9JAjr02xmnRh1uGHtBgGbwqESP3cNU';
+    return 'https://maps.googleapis.com/maps/api/staticmap?center=${_pickedLocation!.latitude},${_pickedLocation!.longitude}&zoom=13&size=600x300&maptype=roadmap&markers=color:red%7Clabel:A%7C${_pickedLocation!.latitude},${_pickedLocation!.longitude}&key=REPLACE';
   }
 
   void _selectOnMap() async {
